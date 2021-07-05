@@ -32,7 +32,7 @@ TrafficObject::~TrafficObject()
         t.join();
     });
 
-    /*for(auto &t : _threads)
+    /*for(auto &t : _threads) //This wasn't working, threw an error saying the function was deleted
     {
         t.join();
     }*/
